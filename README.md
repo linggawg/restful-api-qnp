@@ -13,19 +13,20 @@ HTTP Request Collection:
 - Path: GET http://localhost:8000/contact
 - Path: GET http://localhost:8000/contact/{id}
 - Path:	POST http://localhost:8000/contact
-  Body: {
-         "name": "name",
-		 "email": "email",
-		 "phone": "phone",
-		 "address": "address"
-		}
+| Body: {
+"name": "name",
+"email": "email",
+"phone": "phone",
+"address": "address"
+}
 - Path: PUT http://localhost:8000/contact
-  Body: {
-         "name": "name",
-		 "email": "email",
-		 "phone": "phone",
-		 "address": "address"
-		}
+| Body: {
+"id": "id,
+"name": "name",
+"email": "email",
+"phone": "phone",
+"address": "address"
+}
 - Path: DELETE http://localhost:8000/contact/{id}
 - Path: GET http://localhost:8000/users-posts
 
